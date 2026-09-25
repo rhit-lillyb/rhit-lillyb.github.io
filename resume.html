@@ -20,6 +20,15 @@
         <h1>Resume</h1>
 
         <section>
+            <script src="script.js"></script>
+            <p>Use the selector below to view the different parts of the resume!</p>
+            <select id="sectionSelector">
+                <option>Technologies</option>
+                <option>Work</option>
+                <option>Education</option>
+            </select>
+
+            <div class="invisible-element" id="Technologies">
             <h2>Technologies</h2>
             <uo>
                 <li>GDScript / Godot 4</li>
@@ -28,16 +37,20 @@
                 <li>C & C++</li>
                 <li>HTML, CSS, and JS</li>
             </uo>
+            </div>
 
+            <div class="invisible-element" id="Work">
             <h2>Work Experience</h2>
             <h3>Upwork Freelancer</h3>
             <p>I worked on Upwork as a freelancer, I tutored a child in GDScript and am still applying for more positions! <a href="https://www.upwork.com/freelancers/~01e93d3f078a860408">Click here</a> if you'd like to view my account.</p>
+            </div>
 
+            <div class="invisible-element" id="Education">
             <h2>Education</h2>
             <h3>Rose-Hulman Institute of Technology</h3>
-            <p>I worked on Upwork as a freelancer, I tutored a child in GDScript and am still applying for more positions! <a href="https://www.upwork.com/freelancers/~01e93d3f078a860408">Click here</a> if you'd like to view my account.</p>
+            <p>Rose is awesome! I'm majoring in Software Engineering and focusing on Video Game Development right now! I've taken courses in Object-Oriented Design, Web Development, and Computer Architecture! These courses have really improved my skill and I'm so thankful for all the professors and peers I've met along the way!</p>
+            </div>
 
-            <h2></h2>
         </section>
         </main>
 
