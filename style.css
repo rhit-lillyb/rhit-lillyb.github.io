@@ -1,3 +1,5 @@
+/* CITATION: Used this to help center my stuff! https://medium.com/@anuj_jaryal/mastering-the-art-of-centering-a-div-in-css-110d6001a273*/
+
 nav {
   border-bottom: 4px solid #DD2C6A;
   background-color: #E55D8C;
@@ -6,6 +8,25 @@ nav {
 
 nav ol li {
   display: inline-block;
+  color: white;
+}
+
+nav ol li a:link {
+  color: white;
+}
+
+p a:link {
+  color: white;
+}
+
+uo li {
+  color:white;
+  padding-left: 12px;
+  background-color: #E55D8C;
+  border: #E55D8C;
+  border-width: 12px;
+  padding-top:6px;
+  padding-bottom: 6px;
 }
 
 footer {
@@ -21,22 +42,50 @@ footer ol li {
 
 h1 {
   color: white;
-  padding: 12px;
+  padding-left: 12px;
+  display: grid;
+  place-items: center;
+  margin: auto;
+  padding-top:12px;
 }
 
 h2 {
   color: white;
-  padding: 16px;
+  padding-left: 16px;
+}
+
+h3 {
+  color: white;
+  padding-left: 16px;
 }
 
 p {
   color: white;
   padding: 24px;
+  background-color: #E55D8C;
 }
 
+#iframe-container {
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
 
-/* polka dots!! */
-/* link to src: https://codepen.io/quitepenne/pen/NNmEEd */
+img {
+  display: grid;
+  place-items: center;
+  margin: auto;
+  padding-top:12px;
+}
+
+#center-tag {
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+/* polka dots!! Got this from this link below */
+/* CITATION: https://codepen.io/quitepenne/pen/NNmEEd */
 
 body {
     margin: 0;
